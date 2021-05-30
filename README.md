@@ -28,7 +28,7 @@ TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".ts" for /Users/
 ```
 
 これはおそらく、`package.json`でESモジュールであることを明示しているためと思われる。   
-以下のコマンドで解決すると書かれていた記事があり、実行したところエラーは出なかった。
+以下のコマンドで解決すると書かれていた[記事](https://zenn.dev/tak_iwamoto/articles/862527e69f544e)があり、実行したところエラーは出なかった。
 
 ``` bash
 node --loader ts-node/esm src/main.ts
