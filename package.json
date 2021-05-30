@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:mjs": "zx main.mjs",
+    "start:ts": "node --loader ts-node/esm main.ts"
+  },
+  "dependencies": {
+    "zx": "^1.14.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
