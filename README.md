@@ -31,5 +31,5 @@ TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".ts" for /Users/
 以下のコマンドで解決すると書かれていた記事があり、実行したところエラーは出なかった。
 
 ``` bash
-node --loader ts-node/esm main.ts
+node --loader ts-node/esm src/main.ts
 ```

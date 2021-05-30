@@ -2,8 +2,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start:mjs": "zx main.mjs",
-    "start:ts": "node --loader ts-node/esm main.ts"
+    "start:mjs": "zx src/main.mjs",
+    "start:ts": "node --loader ts-node/esm src/main.ts"
   },
   "dependencies": {
     "zx": "^1.14.1"
