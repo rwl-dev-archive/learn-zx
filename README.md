@@ -1,5 +1,5 @@
 # Learn zx
-以下Zenn Scrapsの写経のようなもの
+以下Zenn Scrapsの写経のようなもの  
 https://zenn.dev/korosuke613/scraps/07729cd55a628b
 
 ## なぜやるのか
